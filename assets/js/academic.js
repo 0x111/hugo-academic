@@ -582,9 +582,10 @@
 
     // Initialise code highlighting if enabled for this page.
     // Note: this block should be processed after the Mermaid code-->div conversion.
-    if (code_highlighting) {
+    // Note: I use prism instead of hljs
+    /*if (code_highlighting) {
       hljs.initHighlighting();
-    }
+    }*/
 
     // Initialize theme variation.
     initThemeVariation();
