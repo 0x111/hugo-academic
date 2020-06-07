@@ -75,7 +75,7 @@
     {{ end }}
     
     {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\" title=\"hl-light\">" (printf "https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/themes/prism.min.css") | safeHTML }}
-    {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\" title=\"hl-dark\" disabled>" (printf "https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/themes/prism-dark.min.css") | safeHTML }}
+    {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\" title=\"hl-dark\" disabled>" (printf "https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/themes/prism-okaidia.min.css") | safeHTML }}
 
 
     {{ if or (eq site.Params.map.engine 2) (eq site.Params.map.engine 3) }}
